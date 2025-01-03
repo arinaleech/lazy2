@@ -108,7 +108,7 @@ async def place_water_mark(input_file, output_file, water_mark_file):
          "1",
          out_put_file_name
      ]
-     # width = "90"
+      width = "90"
      process = await asyncio.create_subprocess_exec(
        *file_genertor_command,
         # stdout must a pipe to be accessible as process.stdout
